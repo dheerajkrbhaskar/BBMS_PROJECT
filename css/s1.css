@@ -1,0 +1,183 @@
+body{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	font-family: sans-serif;
+	background-color: #F57676;
+}
+#full{
+	width: 100%;
+	height: auto;
+}
+#img{
+	width: 100%;
+	height: 250px;
+}
+#inner_full{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+#header{
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	height: 70px;
+	background-color: #fff;
+	color: #DE1F26;
+}
+#body{
+	width: 100%;
+	height: 400px;
+}
+#navbar{
+	background-color: #E91D26;
+	overflow: hidden;
+	border-top: 1px solid #E91D26;
+	border-bottom: 1px solid #fff;
+}
+#navbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+#navbar a:hover {
+	background-color: #fff;
+	color: #E91D26;
+}
+#navbar a.active{
+	background-color: #fff;
+	color: #E91D26;
+}
+
+#about{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #E91D26;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 120px;
+	margin-right: 120px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+#about p{
+	margin-left: 20px;
+}
+
+#login{
+	background-color: white;
+	border-radius: 10;
+	width: 300px;
+	padding: 10px;
+}
+
+#Reg_Form{
+	color: #E91D26;;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 4px;
+
+}
+
+#login input[name=name],input[name=fname],textarea[name=address],input[name=email],input[name=city],input[name=mobno] {
+
+	border: 1px solid #E91D26;
+	border-radius: 2px;
+	color: #E91D26;;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+
+}
+#login select,#login input[name=age] {
+	border: 1px solid #E91D26;
+	border-radius: 2px;
+	color: #E91D26;;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+
+}
+
+#login input[name="pass"],input[name="cpass"],input[name=user]{
+	width: 250px;
+	height: 30px;
+	border: 1px solid #E91D26;
+	border-radius: 2px;
+	color: #E91D26;;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+#spec, #spec a{
+	color: red;
+	font-size: 14px;
+}
+
+#login input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background-color: #E91D26;
+	border: 1px solid #E91D26;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+#login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+#login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+#login input[type=text]:focus{
+	outline: none;
+	border: 1px solid #E91D26;
+}
+
+#login input[type=password]:focus{
+	outline: none;
+	border: 1px solid #E91D26;
+}
+
+#login input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: #E91D26;
+}
+
+::-moz-input-placeholder{
+   color: #E91D26;
+}
+#footer{
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	height: auto;
+	background-color: #fff;
+	color: #DE1F26;
+}
+#footer p{
+	margin-left: 20px;
+}
